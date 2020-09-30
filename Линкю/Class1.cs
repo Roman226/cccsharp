@@ -26,5 +26,6 @@ namespace Linq
         {
             new Student()
         };
+        
     }
 }

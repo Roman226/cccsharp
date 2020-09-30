@@ -16,6 +16,7 @@ namespace Linq
                     where n == 'l'
                     select n;
             Console.WriteLine(l.Count());
+            Console.WriteLine("f");
             //int[] numbers = new int[] { 97, 92, 81, 60, 92, 81, 81, 60, 92, 81, 60, 92, 81, 81, 60, 92, 81, 60, 92, 81, 60, 92, 81, 60, 92, 81, 60, 92, 81, 60, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4 };
 
             // Define the query expression.
