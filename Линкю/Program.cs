@@ -11,18 +11,14 @@ namespace Linq
     {
         static void Main(string[] args)
         {
-            String path = @"C:\temp\t.txt";
-            String fileData;
-            fileData = File.ReadAllText(path);
-            var l = from n in fileData
-                    where n == 'l'
-                    select n;
-
-            fileData.OrderBy(n => n);
-
-            UInt128 uInt128;
-            String s;
-            
+            List<Student> students = new List<Student>();
+            Student s1 = new Student("Max","5 group" ,16);
+            Student s2 = new Student("Roma", "5 group", 16);
+            Student s3 = new Student("Alex", "5 group", 16);
+            students.Add(s1);
+            students.Add(s2);
+            students.Add(s3);
+            File.WriteAllText(@"C:\temp\demo.json", System.Text.Json.JsonSerializer.Serialize(students));
         }
     }
 }
