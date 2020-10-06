@@ -1,5 +1,7 @@
-﻿using System;
+﻿using sabatex.Extensions;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 
@@ -15,24 +17,12 @@ namespace Linq
             var l = from n in fileData
                     where n == 'l'
                     select n;
-            Console.WriteLine(l.Count());
-            Console.WriteLine("f");
-            //int[] numbers = new int[] { 97, 92, 81, 60, 92, 81, 81, 60, 92, 81, 60, 92, 81, 81, 60, 92, 81, 60, 92, 81, 60, 92, 81, 60, 92, 81, 60, 92, 81, 60, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4 };
 
-            // Define the query expression.
-            //IEnumerable<int> scoreQuery =
-            //    from score in scores
-            //    where score > 80
-            //    select score;
+            fileData.OrderBy(n => n);
 
-            // Execute the query.
-            //foreach (int i in /*scoreQuery*/)
-            //{
-            //    Console.Write(i + " ");
-            //}
-
-
-            // Output: 97 92 81
+            UInt128 uInt128;
+            String s;
+            
         }
     }
 }

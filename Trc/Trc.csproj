@@ -5,8 +5,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="sabatex.Extensions" Version="3.1.8" />
-  </ItemGroup>
-
 </Project>

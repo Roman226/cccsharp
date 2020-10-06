@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structure", "Structure\Stru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIleAndDirectory", "FIleAndDirectory\FIleAndDirectory.csproj", "{0AFDEECD-9F10-45A4-8826-E37D2431224C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Линкю", "Линкю\Линкю.csproj", "{29D3FA79-DF5B-4ADA-BC42-4F356BECCECF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Линкю", "Линкю\Линкю.csproj", "{29D3FA79-DF5B-4ADA-BC42-4F356BECCECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trc", "Trc\Trc.csproj", "{F9645C9C-797A-42C9-9C0B-D9ACBCC7CAB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{29D3FA79-DF5B-4ADA-BC42-4F356BECCECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29D3FA79-DF5B-4ADA-BC42-4F356BECCECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29D3FA79-DF5B-4ADA-BC42-4F356BECCECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9645C9C-797A-42C9-9C0B-D9ACBCC7CAB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9645C9C-797A-42C9-9C0B-D9ACBCC7CAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9645C9C-797A-42C9-9C0B-D9ACBCC7CAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9645C9C-797A-42C9-9C0B-D9ACBCC7CAB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
